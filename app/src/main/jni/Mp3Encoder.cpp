@@ -6,6 +6,6 @@
 JNIEXPORT jstring JNICALL Java_com_zxh_audiovideolearning_jnidemo_Mp3Encoder_encode
   (JNIEnv *env, jobject instance){
 
-  return (env) -> NewStringUTF("I am encoder from C");
+  return (*env) -> NewStringUTF("I am encoder from C");
 
 }
