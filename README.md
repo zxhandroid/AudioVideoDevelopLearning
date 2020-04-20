@@ -100,7 +100,7 @@
  在有B帧情况下，两都输出顺序不一样；
  
  DTS(Decoding Time Stamp) | 用于视频解码  
-  -----|-----|-----
+  -----|-----
   PTS(Presentation Time Stamp) | 用于解码阶段进行视频的同步和输出
   
   * GOP （Group Of Picture）
