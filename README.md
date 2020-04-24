@@ -25,7 +25,7 @@
  
  声音的大小：
 
- * 音频裸数格式（Pulse Code Modulation,PCM）脉冲编码调制数据，由量化格式(sampleFormat)、采样率(sampleRate)、声道数(channel)组成，比如量化格式为16比特、采样率为44100、声道数为2，描述了CD的音质；
+ * 音频裸数格式（PCM,Pulse Code Modulation）脉冲编码调制数据，由量化格式(sampleFormat)、采样率(sampleRate)、声道数(channel)组成，比如量化格式为16比特、采样率为44100、声道数为2，描述了CD的音质；
  * 数据比特率：即1秒时间内的比特数目，用于衡量音频数据单位时间内的容量大小，比如，CD音质的数据计算如下：
  
  ```
@@ -162,6 +162,8 @@ android jni调用native方法主要步骤如下：
     }
  ```
 ### 2. 交叉编译
+#### 
+
 
 
 

@@ -30,7 +30,7 @@ public class JniTestActivity extends AppCompatActivity {
      * @param view
      */
     public void jniEncode(View view){
-        String encode = new Mp3Encoder().encode();
+        String encode = new JniTestEncoder().encode();
         Toast.makeText(this,encode,Toast.LENGTH_LONG).show();
     }
 }

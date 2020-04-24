@@ -1,5 +1,5 @@
 package com.zxh.audiovideolearning.jnidemo;
 
-public class Mp3Encoder {
+public class JniTestEncoder {
     public native String encode();
 }
